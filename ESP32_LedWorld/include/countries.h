@@ -1,8 +1,8 @@
 #include <map>
 #include <string>
 
-typedef std::string country_t;
 typedef std::string sigla_t;
+typedef std::string country_t;
 
 std::map<sigla_t, country_t> countries = {
 	{"AF", "Afghanistan"},
